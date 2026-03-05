@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "en-US": "Automatically clears bookmark titles for newly created links on the Bookmarks Toolbar."
+  },
+  "categories": [
+    "tabs"
+  ],
+  "version": {
+    "license": "MIT",
+    "approval_notes": "This extension listens only to bookmarks.onCreated and updates title to empty string for newly created direct toolbar bookmarks. It does not collect or transmit data."
+  }
+}
