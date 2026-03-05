@@ -31,6 +31,7 @@ jobs:
             --api-secret "$AMO_API_SECRET" \
             --channel listed \
             --amo-metadata amo-metadata.json \
+            --approval-timeout 0 \
             --timeout 900000
 
       - name: Upload signed XPI
@@ -38,5 +39,5 @@ jobs:
         with:
           name: signed-xpi
           path: web-ext-artifacts/*.xpi
-          if-no-files-found: error
+          if-no-files-found: warn
           retention-days: 7
