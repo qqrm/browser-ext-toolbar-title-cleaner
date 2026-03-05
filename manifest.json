@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Zen Toolbar Bookmark Title Cleaner (New Only)",
+  "version": "0.2.0",
+  "description": "Clears titles only for newly created direct Bookmarks Toolbar bookmarks (not inside folders).",
+  "permissions": [
+    "bookmarks"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "applications": {
+    "gecko": {
+      "id": "zen-toolbar-title-cleaner-new-only@local"
+    }
+  }
+}
