@@ -1,6 +1,6 @@
-# Zen Toolbar Bookmark Title Cleaner (New Only)
+# Toolbar Title Cleaner
 
-Firefox/Zen WebExtension that clears the title **only for newly created** bookmarks
+Firefox WebExtension that clears the title **only for newly created** bookmarks
 placed **directly** on the Bookmarks Toolbar (not inside folders). Existing bookmarks
 and manual renames are not touched.
 
@@ -11,7 +11,7 @@ and manual renames are not touched.
 
 ## Package (XPI)
 Zip the contents of this repo (manifest.json + background.js) into a zip and rename to `.xpi`.
-Then install via `about:addons` → gear → **Install Add-on From File...**
+Then install via `about:addons` -> gear -> **Install Add-on From File...**
 
 ## Behavior rules
 - Cleans title only on `bookmarks.onCreated`.
